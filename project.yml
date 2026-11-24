@@ -1,0 +1,17 @@
+name: ClassTimer
+options:
+  bundleIdPrefix: com.classtimer
+  deploymentTarget:
+    iOS: "12.0"
+targets:
+  ClassTimer:
+    type: application
+    platform: iOS
+    sources: [App]
+    settings:
+      base:
+        INFOPLIST_FILE: App/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.classtimer.ipad
+        IPHONEOS_DEPLOYMENT_TARGET: "12.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_VERSION: "5.0"
